@@ -7,7 +7,7 @@ podman tag registry.access.redhat.com/ubi8/httpd-24:latest	quay.io/quaydemolab/h
 
 podman login quay.io
 
-podman push quay.io/quaydemolab/httpd-docker
-podman push quay.io/quaydemolab/httpd-rh
+podman push quay.io/quaydemolab/httpd-docker || podman push quay.io/quaydemolab/httpd-docker
+podman push quay.io/quaydemolab/httpd-rh || podman push quay.io/quaydemolab/httpd-rh
 
 
